@@ -6,6 +6,7 @@ successfully-installed:
 	touch src/successfully-installed
 
 clean:
-	-@rm -r src
+	-@rm src/successfully-installed
+	-@rmdir --ignore-fail-on-non-empty src
 
 .PHONY: successfully-installed clean
