@@ -1,13 +1,13 @@
-Source: successfully-installed
+Source: packages-available
 Maintainer: Tuomas Starck <dev@starck.fi>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 8)
 
-Package: successfully-installed
+Package: packages-available
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Marker package (for Meetin.gs Ltd)
- Installing this package successfully will make puppet(8) agent believe
- that the repository, this package is in, is successfully installed.
+ Installing this package will add a fact to mark the availability
+ of the repository this package came from.

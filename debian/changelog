@@ -1,4 +1,11 @@
-successfully-installed (1.0-1) UNRELEASED; urgency=low
+packages-available (1.1-1) precise; urgency=low
+
+  * Renamed.
+  * Offering a fact.
+
+ -- Tuomas Starck <dev@starck.fi>  Sat, 11 May 2013 15:37:47 +0200
+
+packages-available (1.0-1) UNRELEASED; urgency=low
 
   * Initial release.
 
