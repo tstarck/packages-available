@@ -1,3 +1,9 @@
+packages-available (1.1-2) precise; urgency=low
+
+  * Version bump to avoid conflict.
+
+ -- Tuomas Starck <dev@starck.fi>  Tue, 09 Sep 2014 13:43:03 +0000
+
 packages-available (1.1-1) precise; urgency=low
 
   * Renamed.

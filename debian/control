@@ -8,6 +8,6 @@ Build-Depends: debhelper (>= 8)
 Package: packages-available
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Marker package (for Meetin.gs Ltd)
- Installing this package will add a fact to mark the availability
- of the repository this package came from.
+Description: Marker package
+ Installing this package will add a marking fact for the
+ availability of the repository this package came from.
